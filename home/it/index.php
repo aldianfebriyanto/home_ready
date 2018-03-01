@@ -35,7 +35,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" style="background-color: #008080;">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
-                    <a class="navbar-brand js-scroll-trigger" href="index.php"><img src="../img/kaefce.png" style="max-height: 40px;"></a>
+                    <a class="navbar-brand js-scroll-trigger" href="index.php"><img src="../img/kaefce.png" style="max-height: 45px;"></a>
                 </li>
                 <li>
                     <a href="../home/index.html">Home</a>
@@ -79,8 +79,33 @@
                 <li>
                     <a href="../home/contact.php">Contact Us</a>
                 </li>
+                
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
                 <li>
-                    <a href="######">Follow US</a>
+                    <a href="follow-us.php">Our Team</a>
                 </li>
             </ul>
         </nav>

@@ -26,13 +26,20 @@
         });
     </script> -->
 
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
 </head>
 <body>
 	    <div id="wrapper">
         <div class="overlay"></div>
     
         <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" style="background-color: #008080;">
+       <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" style="background-color: #008080;">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
                     <a class="navbar-brand js-scroll-trigger" href="index.php"><img src="../img/kaefce.png" style="max-height: 45px;"></a>
@@ -119,34 +126,46 @@
     			<span class="hamb-middle"></span>
 				<span class="hamb-bottom"></span>
             </button>
-            <div class="container" style="background-color:#fefbf7; border-radius: 15px; margin-bottom: 21%; text-align: center;">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h1>IT Solution</h1>
-
-
-        <hr class="style-eight">
-          <div class="gallery">
-            <div class="box">
-             
-               <h3>Visi</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus efficitur nunc in pharetra. Suspendisse nisl sapien, varius at felis quis, cursus porta dui. Mauris nec sagittis velit. Nullam id enim convallis, pharetra leo ut, egestas mi. Quisque vel libero orci. Proin porta nunc quis orci aliquet aliquam. Cras id fermentum nisl.</p>
-              
-            </div>
+             <!-- Services -->
+    <section class="content-section bg-primary text-white text-center" id="services" style="background-color: white; height: 626px;">
+      <div class="container">
+        
+        <div class="row" style="background-color: #faebd7; border-radius: 15px; height: 500px;">
+          <h1 style="color: black;">Our Team</h1>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <img src="../img/Steam_Logo.png" style="height: 150px; width: 150px; margin-top: 50px;">
+            <h4>
+              <strong style="color: black;">Aldian Febriyanto</strong>
+            </h4>
+            <p class="text-faded mb-0" style="color: black;">SMK BAKTI IDHATA</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <img src="../img/Steam_Logo.png" style="height: 150px; width: 150px; margin-top: 50px;">
+            <h4>
+              <strong style="color: black;">Christian Sheva A</strong>
+            </h4>
+            <p class="text-faded mb-0" style="color: black;">SMK BAKTI IDHATA</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <img src="../img/Steam_Logo.png" style="height: 150px; width: 150px; margin-top: 50px;">
             
-            <div class="box">
-              
-               <h3>Misi</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dapibus efficitur nunc in pharetra. Suspendisse nisl sapien, varius at felis quis, cursus porta dui. Mauris nec sagittis velit. Nullam id enim convallis, pharetra leo ut, egestas mi. Quisque vel libero orci. Proin porta nunc quis orci aliquet aliquam. Cras id fermentum nisl.s</p>
-                    
-            </div>
+            <h4>
+              <strong style="color: black;">Fariz Azhar K</strong>
+            </h4>
+            <p class="text-faded mb-0" style="color: black;">SMK BAKTI IDHATA</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <img src="../img/Steam_Logo.png" style="height: 150px; width: 150px; margin-top: 50px;">
+            <h4>
+              <strong style="color: black;">Vito Raditya F</strong>
+            </h4>
+            <p class="text-faded mb-0" style="color: black;">SMK BAKTI IDHATA</p>
+          </div>
 
-            
+          <marquee><h1 style="color: black;">Kita Tim</h1></marquee>
+        </div>
       </div>
-      <hr class="style-eight">
-                    </div>
-                </div>
-            </div>
+    </section>
 
             <div class="footer-bottom" style="background-color: #008080; margin-top: 50px; padding-top: 15px; padding-bottom: 5px;">
     <div class="container">
@@ -198,6 +217,15 @@
   });  
 });
 	</script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
 
 
 </body>
