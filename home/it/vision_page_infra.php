@@ -35,10 +35,10 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" style="background-color: #008080;">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
-                   <a class="navbar-brand js-scroll-trigger" href="index.php"><img src="../img/kaefce.png" style="max-height: 45px;"></a>
+                   <a class="navbar-brand js-scroll-trigger" href="index.php"><img src="../img/kaefce.png" style="height: 70px; margin-top: 10px;"></a>
                 </li>
                 <li>
-                    <a href="../home/index.html">Home</a>
+                    <a href="../home/index.html" style="margin-top: 40px;">Home</a>
                 </li>
 
                 <li class="dropdown">
@@ -102,8 +102,7 @@
                 <br>
                 <br>
                 <br>
-                <br>
-                <br>
+
 
                 <li>
                     <a href="follow-us.php">Our Team</a>
