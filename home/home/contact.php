@@ -5,16 +5,17 @@
     <title>KFC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--Bootstrap & CSS-->
     <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="../assets/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="../assets/css/style2.css">
     <link rel="shortcut icon" type="image/x-icon" href="ffcico.ico" />
-
     <script type="text/javascript" src="../assets/js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+
 </head>
 <body>
-
+<!--HEADER START-->
 <div class="main-navigation navbar-fixed-top">
     <nav class="navbar navbar-default">
       <div class="container">
@@ -39,8 +40,8 @@
         </div>
       </div>
     </nav>
-  </div>
-
+</div>
+<!--HEADER END-->
 
 <div class="container">
 <br>
@@ -88,6 +89,7 @@
                 </form>
             </div>
         </div>
+
         <div class="col-md-6">
             <div>
                 <div class="panel panel-default">
@@ -102,6 +104,7 @@
                         <strong>Email: jagonyaayam@kfc.com</strong><br>
                     </h4>
         </div>
+
                     <br>
                     <div class="map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d93717.74154019044!2d106.83604158407526!3d-6.23992355580293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x79b4fb4c2bda5a46!2sFast+Food+Indonesia+Tbk!5e0!3m2!1sen!2sid!4v1518687082617" height="290px" width="100%" frameborder="0" style="border:0" allowfullscreen>
@@ -116,9 +119,8 @@
     </div>
 </div>
 
-
+<!--Map js-->
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
 <script type="text/javascript">
     jQuery(function ($) {
         function init_map1() {
@@ -139,6 +141,7 @@
     });
 </script>
 
+<!--Map css-->
 <style>
     .map {
         min-width: 300px;
@@ -155,9 +158,6 @@
         padding: 10px;
     }
 </style>
-
-
-
 <!-- Contact with Map - END -->
 
 </div>
@@ -165,7 +165,7 @@
 <br>
 <br>
 
-
+<!--Footer-->
 <div class="footer-bottom" style="margin-top: 18px;">
     <div class="container">
       <div style="visibility: visible; animation-name: zoomIn; max-height: 5px; margin-top: -5px; margin-bottom: 15px;" class="col-md-12 text-center wow zoomIn">
@@ -174,11 +174,14 @@
 
           <div class="credits">
           </div>
-        </div>
+
+        <!--</div>-->
+
       </div>
     </div>
   </div>
 
+<!--Jquery-->
   <script src="../assets/js/jquery.min.js"></script>
   <script src="../assets/js/jquery.easing.min.js"></script>
   <script src="../assets/js/bootstrap.min.js"></script>

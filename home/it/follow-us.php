@@ -5,11 +5,11 @@
     <meta name="robots" content="noindex, nofollow">
 
     <title></title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootstrap & CSS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../assets/css/bootstrap.min(1).css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" type="text/css" href="style_it.css">
-
-
     <script src="../assets/js/jquery-1.11.1.min.js.download"></script>
     <script src="../assets/js/bootstrap.min.js(1).download"></script>
 
@@ -35,6 +35,7 @@
 
 </head>
 <body>
+  <!--HEADER START-->
 	    <div id="wrapper">
         <div class="overlay"></div>
     
@@ -42,18 +43,19 @@
        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" style="background-color: #008080;">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
-                    <a class="navbar-brand js-scroll-trigger" href="index.php"><img src="../img/kaefce.png" style="height: 70px; margin-top: 10px;"></a>
+                    <a class="navbar-brand js-scroll-trigger" href="../home/index.html"><img src="../img/kaefce.png" style="height: 70px; margin-top: 10px;"></a>
                 </li>
                 <li>
-                    <a href="../home/index.html" style="margin-top: 40px;">Home</a>
+                    <a href="index.php" style="margin-top: 40px;">Information Technology</a>
                 </li>
+
 
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">IT Infrastructure<span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li class="dropdown-header">   </li>
                     <li><a href="vision_page_infra.php">Visi & Misi</a></li>
-                    <li><a href="#">Biodata Karyawan</a></li>
+                    <li><a href="biodata.php">Biodata Karyawan</a></li>
                   </ul>
                 </li>
 
@@ -62,7 +64,7 @@
                   <ul class="dropdown-menu" role="menu">
                     <li class="dropdown-header">   </li>
                     <li><a href="vision_page_erd.php">Visi & Misi</a></li>
-                    <li><a href="#">Biodata Karyawan</a></li>
+                    <li><a href="biodata.php">Biodata Karyawan</a></li>
                   </ul>
                 </li>
 
@@ -71,7 +73,7 @@
                   <ul class="dropdown-menu" role="menu">
                     <li class="dropdown-header">   </li>
                     <li><a href="vision_page_support.php">Visi & Misi</a></li>
-                    <li><a href="#">Biodata Karyawan</a></li>
+                    <li><a href="biodata.php">Biodata Karyawan</a></li>
                   </ul>
                 </li>
 
@@ -80,7 +82,7 @@
                   <ul class="dropdown-menu" role="menu">
                     <li class="dropdown-header">   </li>
                     <li><a href="vision_page_solution.php">Visi & Misi</a></li>
-                    <li><a href="#">Biodata Karyawan</a></li>
+                    <li><a href="biodata.php">Biodata Karyawan</a></li>
                   </ul>
                 </li>
                 
