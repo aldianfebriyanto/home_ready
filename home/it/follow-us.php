@@ -12,29 +12,20 @@
     <link rel="stylesheet" type="text/css" href="style_it.css">
     <script src="../assets/js/jquery-1.11.1.min.js.download"></script>
     <script src="../assets/js/bootstrap.min.js(1).download"></script>
+     <link rel="shortcut icon" type="image/x-icon" href="../img/ffcico.ico"/>
+    <!--Bootstrap & CSS-->
 
-  <!--  <script type="text/javascript">
-        window.alert = function(){};
-        var defaultCSS = document.getElementById('bootstrap-css');
-        function changeCSS(css){
-            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
-            else $('head > link').filter(':first').replaceWith(defaultCSS); 
-        }
-        $( document ).ready(function() {
-          var iframe_height = parseInt($('html').height()); 
-          window.parent.postMessage( iframe_height, 'https://bootsnipp.com');
-        });
-    </script> -->
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/js/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="..assets/css/stylish-portfolio.min.css" rel="stylesheet">
+    <link href="..assets/css/stylish-portfolio.css" rel="stylesheet">
 
 </head>
 <body>
+  
   <!--HEADER START-->
 	    <div id="wrapper">
         <div class="overlay"></div>
@@ -43,7 +34,7 @@
        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" style="background-color: #008080;">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
-                    <a class="navbar-brand js-scroll-trigger" href="../home/index.html"><img src="../img/kaefce.png" style="height: 70px; margin-top: 10px;"></a>
+                    <a class="navbar-brand js-scroll-trigger" href="../index.html"><img src="../img/kaefce.png" style="height: 70px; margin-top: 10px;"></a>
                 </li>
                 <li>
                     <a href="index.php" style="margin-top: 40px;">Information Technology</a>
@@ -87,7 +78,7 @@
                 </li>
                 
                 <li>
-                    <a href="../home/contact.php">Contact Us</a>
+                    <a href="../it/contact.php">Contact Us</a>
                 </li>
 
                 <br>
@@ -116,23 +107,26 @@
                 <li>
                     <a href="follow-us.php">Our Team</a>
                 </li>
+
             </ul>
-        </nav>
+      </nav>
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
+          <span class="hamb-top"></span>
     			<span class="hamb-middle"></span>
-				<span class="hamb-bottom"></span>
+				  <span class="hamb-bottom"></span>
             </button>
-             <!-- Services -->
+
+        <!-- Services -->
     <section class="content-section bg-primary text-white text-center" id="services" style="background-color: white; height: 626px;">
       <div class="container">
         
-        <div class="row" style="background-color: #faebd7; border-radius: 15px; height: 500px;">
+        <div class="row" style="background-color: #dddddd; border-radius: 15px; height: 500px;">
           <h1 style="color: black;">Our Team</h1>
+
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <img src="../img/Steam_Logo.png" style="height: 150px; width: 150px; margin-top: 50px;">
             <h4>
@@ -140,36 +134,37 @@
             </h4>
             <p class="text-faded mb-0" style="color: black;">SMK BAKTI IDHATA</p>
           </div>
+
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
             <img src="../img/Steam_Logo.png" style="height: 150px; width: 150px; margin-top: 50px;">
             <h4>
-              <strong style="color: black;">Christian Sheva A</strong>
-            </h4>
-            <p class="text-faded mb-0" style="color: black;">SMK BAKTI IDHATA</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <img src="../img/Steam_Logo.png" style="height: 150px; width: 150px; margin-top: 50px;">
-            
-            <h4>
-              <strong style="color: black;">Fariz Azhar K</strong>
-            </h4>
-            <p class="text-faded mb-0" style="color: black;">SMK BAKTI IDHATA</p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <img src="../img/Steam_Logo.png" style="height: 150px; width: 150px; margin-top: 50px;">
-            <h4>
-              <strong style="color: black;">Vito Raditya F</strong>
+              <strong style="color: black;">Christian Sheva Alexander</strong>
             </h4>
             <p class="text-faded mb-0" style="color: black;">SMK BAKTI IDHATA</p>
           </div>
 
-          <marquee><h1 style="color: black;">Kita Tim</h1></marquee>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <img src="../img/Steam_Logo.png" style="height: 150px; width: 150px; margin-top: 50px;">
+            <h4>
+              <strong style="color: black;">Fariz Azhar Khalied</strong>
+            </h4>
+            <p class="text-faded mb-0" style="color: black;">SMK BAKTI IDHATA</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <img src="../img/Steam_Logo.png" style="height: 150px; width: 150px; margin-top: 50px;">
+            <h4>
+              <strong style="color: black;">Vito Raditya Fauzan</strong>
+            </h4>
+            <p class="text-faded mb-0" style="color: black;">SMK BAKTI IDHATA</p>
+          </div>
+
         </div>
       </div>
     </section>
 
             <div class="footer-bottom" style="background-color: #008080; margin-top: 50px; padding-top: 15px; padding-bottom: 5px;">
-    <div class="container">
+     <div class="container">
      
 
           <h5 style="text-align: center; margin-top: 5px;"> &copy Copyright 2018 by teamERROR404.</h5>
@@ -180,13 +175,14 @@
     </div>
   </div>
         </div>
+  </div> 
+  </div>     
         <!-- /#page-content-wrapper -->
-
-    </div>
 
     
 
-    <!-- /#wrapper -->
+        <!--script-->
+
 	<script type="text/javascript">
 
 	$(document).ready(function () {
@@ -218,15 +214,18 @@
   });  
 });
 	</script>
+
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="../assets/js/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
+  <script src="../assets/js/stylish-portfolio.min.js"></script>
+
+        <!--script end-->
 
 
 </body>

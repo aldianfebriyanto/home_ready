@@ -1,30 +1,18 @@
 <!DOCTYPE html>
-<!-- saved from url=(0036)https://s.bootsnipp.com/iframe/Qb83E -->
+
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="robots" content="noindex, nofollow">
 
-    <title></title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../assets/css/bootstrap.min(1).css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" type="text/css" href="style_it.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/ffcico.ico"/>
 
 
     <script src="../assets/js/jquery-1.11.1.min.js.download"></script>
     <script src="../assets/js/bootstrap.min.js(1).download"></script>
-
-  <!--  <script type="text/javascript">
-        window.alert = function(){};
-        var defaultCSS = document.getElementById('bootstrap-css');
-        function changeCSS(css){
-            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
-            else $('head > link').filter(':first').replaceWith(defaultCSS); 
-        }
-        $( document ).ready(function() {
-          var iframe_height = parseInt($('html').height()); 
-          window.parent.postMessage( iframe_height, 'https://bootsnipp.com');
-        });
-    </script> -->
 
 </head>
 <body>
@@ -35,7 +23,7 @@
        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" style="background-color: #008080;">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
-                    <a class="navbar-brand js-scroll-trigger" href="../home/index.html"><img src="../img/kaefce.png" style="height: 70px; margin-top: 10px;"></a>
+                    <a class="navbar-brand js-scroll-trigger" href="../index.html"><img src="../img/kaefce.png" style="height: 70px; margin-top: 10px;"></a>
                 </li>
                 <li>
                     <a href="index.php" style="margin-top: 40px;">Information Technology</a>
@@ -79,7 +67,7 @@
                 </li>
                 
                 <li>
-                    <a href="../home/contact.php">Contact Us</a>
+                    <a href="contact.php">Contact Us</a>
                 </li>
 
                 <br>
@@ -111,7 +99,6 @@
         </nav>
         <!-- /#sidebar-wrapper -->
 
-
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
@@ -124,42 +111,65 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <h1>Biodata Karyawan</h1>
 
-
+         <!--tabel descripsi-->
         <hr class="style-eight">
-          <div class="gallery">
-            
-
-              <div class="container">
-                <div class="page-header">
-              </div>
+        	<div class="gallery">
               
-
-              <div class="row">
-               <div class="col-lg-12">
-                <table class="table table table-bordered table-hover table-responsive">
+			<div class="row">
+				<div class="col-lg-12">
+					<table class="table table table-bordered table-hover table-responsive">
 
                 <thead>
-                <tr>
-                 <th>NIK</th>
-                 <th>Full Name</th>
-                 <th>Description</th>
-                </tr>
-                </thead>
+          <tr>
+            <th>Full Name</th>
+            <th>Division</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <?php 
+          $dbhost = 'localhost';
+          $dbuser = 'root';
+          $dbpass = '';
+          $dbname = 'magang';
+
+
+          $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
+
+          if($conn->connect_error){
+            die('Connection Error :'.$conn->connect_error);
+          }
+          $sql = "SELECT * FROM biodata_it";
+          $data = $conn->query($sql);
+          while($row = $data->fetch_array()){
+
+           ?>
+           <tr>
+            <td>
+              <?php echo $row['fname']."&nbsp;".$row['lname'];?>
+            </td>
+
+            <td>
+              <?php echo $row['division']; ?>
+            </td>
+            </tr>
+           <?php
+          }
+          ?>
+          
+        </tbody>
+
+
+					</table>
+				</div>
+			</div>
 
 
 
-               </table>
-             </div>
-           </div>
-
-
-
-            
-      </div>
       <hr class="style-eight">
-                    </div>
-                </div>
-            </div>
+			</div>
+					</div>
+				</div>
 
 
             <div class="modal fade" id="view-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: :none;">
@@ -176,6 +186,7 @@
           <div id="modal-loader" style="display: none; text-align: center;">
             <img src="">
           </div>
+
           <!--Content will be loaded here-->
           <div id="dynamic-content">
             <!-- Kalo Data Type JSON-->
@@ -186,30 +197,30 @@
                               
                                 <table class="table table-striped table-bordered">
 
-                                <tr>
+                              <tr>
                               <th>NIK</th>
                               <td id="txt_nik"></td>
-                                </tr>
+                              </tr>
 
                               <tr>
                               <th>First Name</th>
                               <td id="txt_fname"></td>
-                                </tr>
+                              </tr>
                                      
-                                <tr>
+                              <tr>
                               <th>Last Name</th>
                               <td id="txt_lname"></td>
-                                </tr>
+                              </tr>
                                           
-                                <tr>
-                                <th>Email</th>
-                                <td id="txt_email"></td>
-                                </tr>
+                              <tr>
+                              <th>Email</th>
+                              <td id="txt_email"></td>
+                              </tr>
                                           
-                                <tr>
-                                <th>Mobile</th>
-                                <td id="txt_mobile"></td>
-                                </tr>
+                              <tr>
+                              <th>Mobile</th>
+                              <td id="txt_mobile"></td>
+                              </tr>
 
                                 <tr>
                                 <th>Position</th>
@@ -232,17 +243,16 @@
     </div>
 
 
-  
-    </div>
+      </div>
   </div>
         </div>
+       </div>
         <!-- /#page-content-wrapper -->
 
-    </div>
-
+    
     
 
-    <!-- /#wrapper -->
+    <!-- script -->
 	<script type="text/javascript">
 
 	$(document).ready(function () {
@@ -285,6 +295,7 @@
           </div>
           </div>
           </div>
+       	</div><!--wrapper end-->
 
 
 </body>

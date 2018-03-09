@@ -4,27 +4,19 @@
     
     <meta name="robots" content="noindex, nofollow">
 
-    <title></title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IT</title>
+
+    <!--Bootstrap & CSS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../assets/css/bootstrap.min(1).css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" type="text/css" href="style_it.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/ffcico.ico"/>
 
-
+    <!--script-->
     <script src="../assets/js/jquery-1.11.1.min.js.download"></script>
     <script src="../assets/js/bootstrap.min.js(1).download"></script>
 
-  <!--  <script type="text/javascript">
-        window.alert = function(){};
-        var defaultCSS = document.getElementById('bootstrap-css');
-        function changeCSS(css){
-            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
-            else $('head > link').filter(':first').replaceWith(defaultCSS); 
-        }
-        $( document ).ready(function() {
-          var iframe_height = parseInt($('html').height()); 
-          window.parent.postMessage( iframe_height, 'https://bootsnipp.com');
-        });
-    </script> -->
+ 
 
 </head>
 <body>
@@ -33,9 +25,9 @@
     
         <!-- Sidebar -->
        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" style="background-color: #008080;">
-            <ul class="nav sidebar-nav">
+           <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
-                    <a class="navbar-brand js-scroll-trigger" href="../home/index.html"><img src="../img/kaefce.png" style="height: 70px; margin-top: 10px;"></a>
+                    <a class="navbar-brand js-scroll-trigger" href="../index.html"><img src="../img/kaefce.png" style="height: 70px; margin-top: 10px;"></a>
                 </li>
                 <li>
                     <a href="index.php" style="margin-top: 40px;">Information Technology</a>
@@ -79,7 +71,7 @@
                 </li>
                 
                 <li>
-                    <a href="../home/contact.php">Contact Us</a>
+                    <a href="contact.php">Contact Us</a>
                 </li>
 
                 <br>
@@ -121,7 +113,7 @@
             <div class="container" style="background-color:#fefbf7; border-radius: 15px; margin-bottom: 21%; text-align: center;">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <h1>IT Economy Recovery & Development</h1>
+                        <h1>IT Electronic Data Processing</h1>
 
 
         <hr class="style-eight">
@@ -159,13 +151,15 @@
     </div>
   </div>
         </div>
+      </div>
+      </div>
         <!-- /#page-content-wrapper -->
-
-    </div>
 
     
 
-    <!-- /#wrapper -->
+    
+
+    <!-- script -->
 	<script type="text/javascript">
 
 	$(document).ready(function () {

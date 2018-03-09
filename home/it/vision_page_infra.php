@@ -4,27 +4,17 @@
     
     <meta name="robots" content="noindex, nofollow">
 
-    <title></title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IT</title>
+
+    <!--Bootstrap & CSS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../assets/css/bootstrap.min(1).css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" type="text/css" href="style_it.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/ffcico.ico"/>
 
-
+    <!--Script-->
     <script src="../assets/js/jquery-1.11.1.min.js.download"></script>
     <script src="../assets/js/bootstrap.min.js(1).download"></script>
-
-  <!--  <script type="text/javascript">
-        window.alert = function(){};
-        var defaultCSS = document.getElementById('bootstrap-css');
-        function changeCSS(css){
-            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
-            else $('head > link').filter(':first').replaceWith(defaultCSS); 
-        }
-        $( document ).ready(function() {
-          var iframe_height = parseInt($('html').height()); 
-          window.parent.postMessage( iframe_height, 'https://bootsnipp.com');
-        });
-    </script> -->
 
 </head>
 <body>
@@ -35,7 +25,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" style="background-color: #008080;">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
-                    <a class="navbar-brand js-scroll-trigger" href="../home/index.html"><img src="../img/kaefce.png" style="height: 70px; margin-top: 10px;"></a>
+                    <a class="navbar-brand js-scroll-trigger" href="../index.html"><img src="../img/kaefce.png" style="height: 70px; margin-top: 10px;"></a>
                 </li>
                 <li>
                     <a href="index.php" style="margin-top: 40px;">Information Technology</a>
@@ -65,7 +55,7 @@
                   <ul class="dropdown-menu" role="menu">
                     <li class="dropdown-header">   </li>
                     <li><a href="vision_page_support.php">Visi & Misi</a></li>
-                    <li><a href="biodata.php">biodata.phpBiodata Karyawan</a></li>
+                    <li><a href="biodata.php">Biodata Karyawan</a></li>
                   </ul>
                 </li>
 
@@ -77,9 +67,9 @@
                     <li><a href="biodata.php">Biodata Karyawan</a></li>
                   </ul>
                 </li>
-
+                
                 <li>
-                    <a href="../home/contact.php">Contact Us</a>
+                    <a href="contact.php">Contact Us</a>
                 </li>
 
                 <br>
@@ -103,7 +93,6 @@
                 <br>
                 <br>
                 <br>
-
 
                 <li>
                     <a href="follow-us.php">Our Team</a>
@@ -160,13 +149,11 @@
     </div>
   </div>
         </div>
+    </div>
+    </div>
         <!-- /#page-content-wrapper -->
 
-    </div>
-
-    
-
-    <!-- /#wrapper -->
+    <!-- script -->
 	<script type="text/javascript">
 
 	$(document).ready(function () {
